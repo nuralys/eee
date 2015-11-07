@@ -11,6 +11,7 @@
     overflow: hidden;
     margin-top: 5px;
     border: 1px solid #9f9f9f;
+    opacity: 0;
 }
 .search input {
     float: left;
