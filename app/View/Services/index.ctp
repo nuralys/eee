@@ -63,7 +63,7 @@
 				</div>
 				</div>
 				<div class="content_uslugi">
-					<div class="content_des_title"><h1 class="content_about_title"><?php echo $service['Service']['title']; ?></h1></div>
+					<div class="content_des_title"><h1 ><?php echo $service['Service']['title']; ?></h1></div>
 					
 						
 						<?php echo $service['Service']['body']; ?>

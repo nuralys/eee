@@ -35,6 +35,54 @@ nav {
 nav a {
     color: #fff;
 }
+.services-list li {
+    margin-bottom: 4px;
+}
+.add_b {
+    margin-bottom: 5px;
+    display: block;
+}
+ul.add_project li {
+    margin-bottom: 3px;
+}
+.project_add {
+    margin-bottom: 5px;
+    display: block;
+}
+.add_product {
+    display: block;
+    margin-bottom: 5px;
+}
+.add_products li {
+    margin-bottom: 5px;
+}
+.add_news {
+    display: block;
+    margin-bottom: 5px;
+}
+.news_add li {
+    margin-bottom: 3px;
+}
+.revies_admin p {
+    margin-bottom: 5px;
+}
+.revies_admin p a {
+    float: left;
+    display: block;
+}
+.reviews_del_red p {
+    float: left;
+    overflow: hidden;
+}
+.reviews_admin {
+    overflow: hidden;
+    margin: 12px 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+.reviews_admin p {
+    margin-bottom: 3px;
+}
 a {
 	color: #003d4c;
 	text-decoration: underline;
