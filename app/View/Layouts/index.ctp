@@ -58,7 +58,7 @@
 							</li>
 							<?php echo $servicesMainMenu ?>
 							<li>
-								<a href="produkcia.html" >Каталог товаров</a>
+								<a href="/products" >Каталог товаров</a>
 									<ul class="product_menu">
 										<?php foreach($products as $product): ?>
 										<li><a href="/product/<?php echo $product['Product']['alias'] ?>" ><?php echo $product['Product']['title'] ?></a></li>
@@ -66,7 +66,7 @@
 									</ul>
 							</li>
 							<li>
-								<a href="project.html" >Проекты</a>
+								<a href="/projects" >Проекты</a>
 									<ul>
 										<?php foreach($projects_menu as $projects_menu_item): ?>
 											<li><a href="/project/<?=$projects_menu_item['Project']['alias']?>"><?=$projects_menu_item['Project']['title']?></a></li>
