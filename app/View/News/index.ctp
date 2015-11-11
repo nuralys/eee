@@ -17,27 +17,7 @@
 					<div class="side_bar">
 					
 					
-					<div class="review">
-						<div class="content_des_title">Отзывы</div>
-						<div class="review_item">
-							<div class="review_item_info">
-								<div class="review_item_img news_item_img">
-									<img src="/img/news.jpg" alt=""/>
-								</div>
-								<div class="review_name ">Азаматов Амир Каиржанович</div>
-								<div class="review_comp ">Название компании</div>
-								<div class="review_prof ">должность</div>
-							</div>
-							<div class="review_text">
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt unde beatae perferendis harum a, praesentium eveniet consectetur sapiente accusantium dolore, omnis nam recusandae est? Nesciunt aliquid laudantium porro ut.
-								</p>
-							</div>
-							<a href="">
-								<div class="review_button">Оставить отзыв</div>
-							</a>
-						</div>
-					</div>
+					<?php echo $this->element('reviews'); ?>
 					
 				</div>
 				</div>

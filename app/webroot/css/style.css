@@ -202,6 +202,9 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
+.news_item_img img {
+    width: 100%;
+}
 .news_item_img {
     width: 142px;
     height: 86px;

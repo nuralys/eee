@@ -50,7 +50,7 @@
 												<li><a href="/pages/future_risks">Будущие риски </a></li>
 											</ul>
 										</li>
-										<li><a href="direction">Pуководство</a>
+										<li><a href="/pages/direction">Pуководство</a>
 										</li>
 										<li><a href="/pages/contacts">Контакты</a>
 										</li>

@@ -21,45 +21,7 @@
 						</div>
 						<?php endforeach; ?>
 					</div>
-					
-						<div class="content_des_title">Отзывы</div>
-						<section class="review">
-						<div class="slider__item">
-							<div class="review_item_info">
-								<div class="review_name ">Азаматов Амир Каиржанович</div>
-								<div class="review_comp ">
-								Название компании
-								</div>
-								<div class="review_prof ">должность</div>
-							</div>
-							<div class="review_text">
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt unde beatae perferendis harum a, praesentium eveniet consectetur sapiente accusantium dolore, omnis nam recusandae est? Nesciunt aliquid laudantium porro ut.
-								</p>
-							</div>
-						</div>
-						<div class="slider__item">
-							<div class="review_item_info">
-								<div class="review_name ">Азаматов Амир Каиржанович</div>
-								<div class="review_comp ">
-								Название компании
-								</div>
-								<div class="review_prof ">должность</div>
-							</div>
-							<div class="review_text">
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nesciunt unde beatae perferendis harum a, praesentium eveniet consectetur sapiente accusantium dolore, omnis nam recusandae est? Nesciunt aliquid laudantium porro ut.
-								</p>
-							</div>
-						</div>
-						
-					</section>
-					<a href="#modal1" class="open_modal">
-								<div class="review_button">
-									Оставить отзыв
-								</div>
-							</a>
-					
+					<?php echo $this->element('reviews'); ?>
 				</div>
 			</div>
 		</div>
